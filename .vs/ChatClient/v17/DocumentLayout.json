@@ -1,0 +1,124 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\cedon\\source\\repos\\ChatClient\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6B97AEFC-FE2F-49FD-B830-AE331ECCFE14}|ChatClient\\ChatClient.csproj|c:\\users\\cedon\\source\\repos\\chatclient\\chatclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B97AEFC-FE2F-49FD-B830-AE331ECCFE14}|ChatClient\\ChatClient.csproj|solutionrelative:chatclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B97AEFC-FE2F-49FD-B830-AE331ECCFE14}|ChatClient\\ChatClient.csproj|c:\\users\\cedon\\source\\repos\\chatclient\\chatclient\\clientsocket\\protocol\\networkmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B97AEFC-FE2F-49FD-B830-AE331ECCFE14}|ChatClient\\ChatClient.csproj|solutionrelative:chatclient\\clientsocket\\protocol\\networkmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B97AEFC-FE2F-49FD-B830-AE331ECCFE14}|ChatClient\\ChatClient.csproj|c:\\users\\cedon\\source\\repos\\chatclient\\chatclient\\connectfailview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6B97AEFC-FE2F-49FD-B830-AE331ECCFE14}|ChatClient\\ChatClient.csproj|solutionrelative:chatclient\\connectfailview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B97AEFC-FE2F-49FD-B830-AE331ECCFE14}|ChatClient\\ChatClient.csproj|c:\\users\\cedon\\source\\repos\\chatclient\\chatclient\\chatview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6B97AEFC-FE2F-49FD-B830-AE331ECCFE14}|ChatClient\\ChatClient.csproj|solutionrelative:chatclient\\chatview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B97AEFC-FE2F-49FD-B830-AE331ECCFE14}|ChatClient\\ChatClient.csproj|c:\\users\\cedon\\source\\repos\\chatclient\\chatclient\\chatview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B97AEFC-FE2F-49FD-B830-AE331ECCFE14}|ChatClient\\ChatClient.csproj|solutionrelative:chatclient\\chatview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B97AEFC-FE2F-49FD-B830-AE331ECCFE14}|ChatClient\\ChatClient.csproj|c:\\users\\cedon\\source\\repos\\chatclient\\chatclient\\chatview.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B97AEFC-FE2F-49FD-B830-AE331ECCFE14}|ChatClient\\ChatClient.csproj|solutionrelative:chatclient\\chatview.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ConnectFailView.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\cedon\\source\\repos\\ChatClient\\ChatClient\\ConnectFailView.cs",
+              "RelativeDocumentMoniker": "ChatClient\\ConnectFailView.cs",
+              "ToolTip": "C:\\Users\\cedon\\source\\repos\\ChatClient\\ChatClient\\ConnectFailView.cs [Design]",
+              "RelativeToolTip": "ChatClient\\ConnectFailView.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T08:09:00.063Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NetworkManager.cs",
+              "DocumentMoniker": "C:\\Users\\cedon\\source\\repos\\ChatClient\\ChatClient\\ClientSocket\\Protocol\\NetworkManager.cs",
+              "RelativeDocumentMoniker": "ChatClient\\ClientSocket\\Protocol\\NetworkManager.cs",
+              "ToolTip": "C:\\Users\\cedon\\source\\repos\\ChatClient\\ChatClient\\ClientSocket\\Protocol\\NetworkManager.cs",
+              "RelativeToolTip": "ChatClient\\ClientSocket\\Protocol\\NetworkManager.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAgwAAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T07:50:50.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\cedon\\source\\repos\\ChatClient\\ChatClient\\Program.cs",
+              "RelativeDocumentMoniker": "ChatClient\\Program.cs",
+              "ToolTip": "C:\\Users\\cedon\\source\\repos\\ChatClient\\ChatClient\\Program.cs",
+              "RelativeToolTip": "ChatClient\\Program.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAYwA0AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T07:49:38.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ChatView.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\cedon\\source\\repos\\ChatClient\\ChatClient\\ChatView.Designer.cs",
+              "RelativeDocumentMoniker": "ChatClient\\ChatView.Designer.cs",
+              "ToolTip": "C:\\Users\\cedon\\source\\repos\\ChatClient\\ChatClient\\ChatView.Designer.cs",
+              "RelativeToolTip": "ChatClient\\ChatView.Designer.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAzwDQAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T07:44:32.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ChatView.cs",
+              "DocumentMoniker": "C:\\Users\\cedon\\source\\repos\\ChatClient\\ChatClient\\ChatView.cs",
+              "RelativeDocumentMoniker": "ChatClient\\ChatView.cs",
+              "ToolTip": "C:\\Users\\cedon\\source\\repos\\ChatClient\\ChatClient\\ChatView.cs",
+              "RelativeToolTip": "ChatClient\\ChatView.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAABoAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T07:42:05.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ChatView.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\cedon\\source\\repos\\ChatClient\\ChatClient\\ChatView.cs",
+              "RelativeDocumentMoniker": "ChatClient\\ChatView.cs",
+              "ToolTip": "C:\\Users\\cedon\\source\\repos\\ChatClient\\ChatClient\\ChatView.cs [Design]",
+              "RelativeToolTip": "ChatClient\\ChatView.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T07:28:59.917Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

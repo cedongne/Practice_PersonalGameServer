@@ -1,0 +1,11 @@
+C:\Users\cedon\source\repos\ChatClient\ChatClient\bin\Debug\ChatClient.exe.config
+C:\Users\cedon\source\repos\ChatClient\ChatClient\bin\Debug\ChatClient.exe
+C:\Users\cedon\source\repos\ChatClient\ChatClient\bin\Debug\ChatClient.pdb
+C:\Users\cedon\source\repos\ChatClient\ChatClient\obj\Debug\ChatClient.csproj.AssemblyReference.cache
+C:\Users\cedon\source\repos\ChatClient\ChatClient\obj\Debug\ChatClient.Properties.Resources.resources
+C:\Users\cedon\source\repos\ChatClient\ChatClient\obj\Debug\ChatClient.csproj.GenerateResource.cache
+C:\Users\cedon\source\repos\ChatClient\ChatClient\obj\Debug\ChatClient.csproj.CoreCompileInputs.cache
+C:\Users\cedon\source\repos\ChatClient\ChatClient\obj\Debug\ChatClient.exe
+C:\Users\cedon\source\repos\ChatClient\ChatClient\obj\Debug\ChatClient.pdb
+C:\Users\cedon\source\repos\ChatClient\ChatClient\obj\Debug\ChatClient.ChatView.resources
+C:\Users\cedon\source\repos\ChatClient\ChatClient\obj\Debug\ChatClient.ConnectFailView.resources
