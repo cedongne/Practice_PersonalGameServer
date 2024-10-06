@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -15,11 +16,16 @@ namespace ChatClient
         [STAThread]
         static void Main()
         {
-            while(NetworkManager.Instance.TryConnect() == false);
+            if (NetworkManager.Instance.TryConnect() == false) {
+                return;
+            }
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ChatView());
+
+            NetworkManager.Instance.ChatView = new ChatView();
+            NetworkManager.Instance.Start();
+            Application.Run(NetworkManager.Instance.ChatView);
         }
     }
 }

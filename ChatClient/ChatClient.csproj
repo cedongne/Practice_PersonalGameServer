@@ -52,6 +52,7 @@
     <Compile Include="ChatView.Designer.cs">
       <DependentUpon>ChatView.cs</DependentUpon>
     </Compile>
+    <Compile Include="ClientSocket\Protocol\CommunicationPropocol.cs" />
     <Compile Include="ClientSocket\Protocol\NetworkManager.cs" />
     <Compile Include="ConnectFailView.cs">
       <SubType>Form</SubType>

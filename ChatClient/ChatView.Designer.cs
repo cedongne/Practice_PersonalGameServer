@@ -1,4 +1,6 @@
-﻿namespace ChatClient
+﻿using System.Windows.Forms;
+
+namespace ChatClient
 {
     partial class ChatView
     {
@@ -31,10 +33,10 @@
             this.TextBoxInputMessage = new System.Windows.Forms.TextBox();
             this.BtnSendMessage = new System.Windows.Forms.Button();
             this.BtnCloseProgram = new System.Windows.Forms.Button();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.ChatBox = new System.Windows.Forms.TextBox();
+            this.ParticipantsBox = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.NoticeBox = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // TextBoxInputMessage
@@ -65,28 +67,28 @@
             this.BtnCloseProgram.UseVisualStyleBackColor = true;
             this.BtnCloseProgram.Click += new System.EventHandler(this.ClickBtnCloseProgram);
             // 
-            // textBox2
+            // ChatBox
             // 
-            this.textBox2.BackColor = System.Drawing.Color.White;
-            this.textBox2.Enabled = false;
-            this.textBox2.Location = new System.Drawing.Point(26, 88);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.ReadOnly = true;
-            this.textBox2.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBox2.Size = new System.Drawing.Size(573, 292);
-            this.textBox2.TabIndex = 3;
+            this.ChatBox.BackColor = System.Drawing.Color.White;
+            this.ChatBox.Enabled = false;
+            this.ChatBox.Location = new System.Drawing.Point(26, 88);
+            this.ChatBox.Multiline = true;
+            this.ChatBox.Name = "ChatBox";
+            this.ChatBox.ReadOnly = true;
+            this.ChatBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.ChatBox.Size = new System.Drawing.Size(573, 292);
+            this.ChatBox.TabIndex = 3;
             // 
-            // textBox3
+            // ParticipantsBox
             // 
-            this.textBox3.BackColor = System.Drawing.Color.White;
-            this.textBox3.Enabled = false;
-            this.textBox3.Location = new System.Drawing.Point(623, 119);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.ReadOnly = true;
-            this.textBox3.Size = new System.Drawing.Size(156, 261);
-            this.textBox3.TabIndex = 4;
+            this.ParticipantsBox.BackColor = System.Drawing.Color.White;
+            this.ParticipantsBox.Enabled = false;
+            this.ParticipantsBox.Location = new System.Drawing.Point(623, 119);
+            this.ParticipantsBox.Multiline = true;
+            this.ParticipantsBox.Name = "ParticipantsBox";
+            this.ParticipantsBox.ReadOnly = true;
+            this.ParticipantsBox.Size = new System.Drawing.Size(156, 261);
+            this.ParticipantsBox.TabIndex = 4;
             // 
             // label1
             // 
@@ -99,27 +101,27 @@
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // textBox4
+            // NoticeBox
             // 
-            this.textBox4.Enabled = false;
-            this.textBox4.Location = new System.Drawing.Point(26, 45);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(573, 25);
-            this.textBox4.TabIndex = 6;
+            this.NoticeBox.Enabled = false;
+            this.NoticeBox.Location = new System.Drawing.Point(26, 45);
+            this.NoticeBox.Name = "NoticeBox";
+            this.NoticeBox.Size = new System.Drawing.Size(573, 25);
+            this.NoticeBox.TabIndex = 6;
             // 
-            // Form1
+            // ChatView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.NoticeBox);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.ParticipantsBox);
+            this.Controls.Add(this.ChatBox);
             this.Controls.Add(this.BtnCloseProgram);
             this.Controls.Add(this.BtnSendMessage);
             this.Controls.Add(this.TextBoxInputMessage);
-            this.Name = "Form1";
+            this.Name = "ChatView";
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -131,10 +133,13 @@
         private System.Windows.Forms.TextBox TextBoxInputMessage;
         private System.Windows.Forms.Button BtnSendMessage;
         private System.Windows.Forms.Button BtnCloseProgram;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox ChatBox;
+        private System.Windows.Forms.TextBox ParticipantsBox;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox NoticeBox;
+
+        public TextBox GetTextBoxInputMessage => TextBoxInputMessage;
+        public TextBox GetChatBox => ChatBox;
     }
 }
 

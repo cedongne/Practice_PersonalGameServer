@@ -1,12 +1,5 @@
 ﻿using ChatClient.ClientSocket.Protocol;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace ChatClient
@@ -16,10 +9,14 @@ namespace ChatClient
         public ChatView()
         {
             InitializeComponent();
+
+            TextBoxInputMessage.KeyPress += ChatView_KeyPress;
         }
 
         private void ClickBtnSendMessage(object sender, EventArgs e)
         {
+            NetworkManager.Instance.SendMessage(TextBoxInputMessage.Text);
+            TextBoxInputMessage.Clear();
         }
 
         private void ClickBtnCloseProgram(object sender, EventArgs e)
@@ -36,6 +33,14 @@ namespace ChatClient
         private void TextChangedTextBoxInputMessage(object sender, EventArgs e)
         {
 
+        }
+
+        public void ChatView_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar.Equals('\r'))
+            {
+                ClickBtnSendMessage(sender, e);
+            }
         }
     }
 }
